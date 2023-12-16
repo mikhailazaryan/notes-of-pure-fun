@@ -1,4 +1,4 @@
-# Introduction 
+# Introduction
 
 ## Functional vs. Imperative Data Structures
 
