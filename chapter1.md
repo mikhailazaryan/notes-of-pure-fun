@@ -12,7 +12,7 @@
 
 ## Strict vs. Lazy Evaluation
 - strict languages: the arguments to a function are evaluated before the body of the function;
-lazy languages: arguments are evaluated in a demand-driven fashion; they are initially passed in unevaluated form and are evaluated only when (and if!) the computation needs the results to continue; once a given argument is evaluated, the value of that argument is cached -> if it is ever needed again, it can be looked up rather than recomputed (this caching is known as *memoization*)
+  lazy languages: arguments are evaluated in a demand-driven fashion; they are initially passed in unevaluated form and are evaluated only when (and if!) the computation needs the results to continue; once a given argument is evaluated, the value of that argument is cached -> if it is ever needed again, it can be looked up rather than recomputed (this caching is known as *memoization*)
 
 - strict languages: can describe worst-case data structures, but not amortized ones;
 lazy languages: can describe amortized data structures, but not worst-case ones
